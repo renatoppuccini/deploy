@@ -75,9 +75,6 @@ metadata:
   labels:
     app: nginx-app-details
 spec:
-  clusterConditions:
-  - type: ManagedClusterConditionAvailable
-    status: "True"
   clusterSelector:
     matchLabels:
       environment: dev
