@@ -75,4 +75,5 @@ spec:
   - type: ManagedClusterConditionAvailable
     status: "True"
   clusterSelector:
-    matchLabels: {}
+    matchLabels:
+      environment: dev
